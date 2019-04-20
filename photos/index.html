@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Archivo');
+  </style>
+
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  <link rel="apple-touch-icon-precomposed" href="/icon/camera-dslr-152-201889.png">
+  <link rel="icon" type="image/x-icon" href="/icon/favicon.ico">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Photos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="photos.css" />
+  <script src="main.js"></script>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="base">
+      <div>
+        <p class="headername">
+          Photos by Michitime
+        </p>
+      </div>
+      <div class="test">
+        <a href="/"><i class="fas fa-home"></i> Home</a>
+        <a class="active" href="#photos"><i class="fas fa-camera"></i> Photos</a>
+        <a href="/about/"> <i class="fas fa-file-alt"></i> About</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="page">
+
+    <!-- BLUEPRINT PHOTOCARD
+
+    <div class="card">
+      <h2 id="photoname">
+
+      </h2>
+      <p id="phototext">
+
+      </p>
+      <img class="img" src="/website_photos/" alt="">
+      <p id="info"></p>
+    </div>
+-->
+
+    <div class="card">
+      <h2 id="photoname">
+        Against the sun
+      </h2>
+      <p id="phototext">
+        I walked by a field with really high grass. Than I saw the sun glancing
+        through.
+      </p>
+      <img class="img" src="/website_photos/sunny_long_grass.jpg" alt="sun through high grass">
+      <p id="info">40mm f6.3 ISO 100 1/2500s</p>
+    </div>
+
+    <div>
+      <h2 id="photoname">The leaf</h2>
+      <p id="phototext">
+        Last month I finally bought a 50mm lens! Every Photographer knows, the
+        look of 50mm f1.8 is something special. <br>
+        For everyone who doesn't know:<br> 50mm lenses have almost the same
+        focallenght of a human eye.<br> This means no lines are distorted,
+        everything looks just right.<br>
+        This is one of the first photos I took with it and it is beautiful.
+      </p>
+
+      <img class="img" src="/website_photos/macro_leaf.jpg" alt="Leaf with bokeh">
+
+      <p id="info">50mm f1.8 ISO 100 1/3200s</p>
+    </div>
+
+    <div class="card">
+      <h2 id="photoname">
+        A fly amanita
+      </h2>
+      <p id="phototext">
+        I was looking for a fly amanita for days in this small forest.<br>
+        Finaly
+        I found a few. I love the look of these typ on mushrooms,<br> but never
+        forget: It might kill you if you eat it!
+      </p>
+
+      <img class="img" src="/website_photos/fly_amanita_2.jpg" alt="fly amanita">
+      <p id="info">58mm f5 ISO 1600 1/125</p>
+    </div>
+
+    <div class="card">
+      <h2 id="photoname">Into the forest</h2>
+      <p id="phototext">
+        I love it to wander around in the forest. The last time I found this
+        beautiful palce.<br> It looked like a painting. Taken in
+        Kumberg (Austira).
+      </p>
+
+      <img class="img" src="/website_photos/into_the_forest.jpg" alt="view into the forest">
+      <p id="info">50mm f1.8 ISO 125 1/80sec</p>
+
+    </div>
+
+    <div class="card">
+      <h2 id="photoname">Fire salamander</h2>
+      <p id="phototext">This kind of salamander live all over Europe. In
+        Austria, fire salamanders are
+        a protected species.<br> They live mainly near water. Taken in
+        Kumberg (Austira).</p>
+      <img class="img" src="/website_photos/fire_salamander_2.jpg">
+      <p id="info">200mm f6.3 ISO 2000 1/40sec</p>
+
+    </div>
+
+    <div class="card">
+      <h2 id="photoname">Fire salamander</h2>
+      <p id="phototext">Taken in Kumberg (Austira).</p>
+      <img class="img" src="/website_photos/fire_salamander_8.jpg">
+      <p id="info">200mm f6.3 ISO 2000 1/40sec</p>
+    </div>
+
+    <div class="card">
+      <h2 id="photoname">Beautiful flowers</h2>
+      <p id="phototext">Macrophotography is something releaxing for me. You
+        dive into a other wolrd,<br>
+        see things have never been seen before and explore the nature of our
+        beautiful planet. Taken in Kumberg (Austira).</p>
+      <img class="img" src="/website_photos/violet_flowers.jpg">
+      <p id="info">40mm f8 ISO 100 1/100sec</p>
+    </div>
+
+    <div class="card">
+      <h2 id="photoname">Dry leaves</h2>
+      <p id="phototext">With macrophotography you are able to see structure of
+        things you never thought of.<br>
+
+        Taken in Kumberg (Austira).</p>
+      <img class="img" src="/website_photos/yellow_brown_leave.jpg">
+      <p id="info">40mm f8 ISO 100 1/200sec</p>
+    </div>
+
+  </div>
+
+
+  <div class="footer">
+
+    <div class="footertext">
+      <div class="social">
+        <ul>
+
+          <li>
+            <a href="https://twitter.com/michitime">
+              <i id="twitter" class="fab fa-twitter"></i></a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/photoby.michitime/">
+              <i id="instagram" class="fab fa-instagram"></i></a>
+          </li>
+
+          <li>
+            <a href="https://www.reddit.com/user/michitime"><i id="reddit"
+                class="fab fa-reddit"></i></a>
+          </li>
+
+          <li>
+            <a href="https://github.com/Michitime"><i id="github" class="fab fa-github"></i></a>
+          </li>
+
+          <li>
+            <a href="https://www.flickr.com/photos/photosby_michitime/"><i id="flickr"
+                class="fab fa-flickr"></i></a>
+          </li>
+
+          <li>
+            <a href="https://bitbucket.org/Michitime/"><i id="bitbucket" class="fab fa-bitbucket"></i></a>
+          </li>
+
+        </ul>
+      </div>
+
+      <p class="text">
+        <i class="fa fa-code" style="
+            color:rgb(0, 101, 196);"></i>
+        with <i class="fa fa-heart" style="color:red;"></i>
+        and Passion by
+        <a id="footerhref" href="/about/">Michitime</a>. <br>
+        <i class="fas fa-copyright"></i> copyright 2018 <br>
+        <i class="fas fa-code-branch"></i> <a href="/versions/">Version 1.2.3</a>
+      </p>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
